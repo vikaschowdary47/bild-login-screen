@@ -11,7 +11,7 @@ const SignInWrapper = ({ children }) => {
       <div className={classes.signInWrapper}>
         {value.activeStep === 0 ? (
           <div className={classes.topLink}>
-            Already have an account? <a>Sign In</a>
+            Already have an account? <a href="#">Sign In</a>
           </div>
         ) : (
           <div className={classes.stepHeaderContainer}>
@@ -58,7 +58,7 @@ const SignInWrapper = ({ children }) => {
           {value.activeStep === 2 ||
             (value.activeStep === 3 && (
               <div className={classes.securityInfo}>
-                <img src="/images/lock.svg" />
+                <img src="/images/lock.svg" alt="lock" />
                 Your Info is safely secured
               </div>
             ))}

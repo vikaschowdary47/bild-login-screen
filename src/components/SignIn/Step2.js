@@ -9,7 +9,6 @@ import SignInWrapper from "./SignInWrapper";
 
 const Step2 = ({ classes }) => {
   const value = useSnapshot(signState);
-  const [phoneValue, setValue] = React.useState();
   return (
     <SignInWrapper>
       <form>
