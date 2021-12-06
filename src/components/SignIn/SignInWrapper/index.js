@@ -11,7 +11,7 @@ const SignInWrapper = ({ children }) => {
       <div className={classes.signInWrapper}>
         {value.activeStep === 0 ? (
           <div className={classes.topLink}>
-            Already have an account? <a href="#">Sign In</a>
+            Already have an account? <a href="/">Sign In</a>
           </div>
         ) : (
           <div className={classes.stepHeaderContainer}>
