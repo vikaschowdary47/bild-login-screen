@@ -1,0 +1,86 @@
+.stepContainer{
+    display: flex;
+    align-items: center;
+    width: 400px;
+    padding:20px 15px;
+    box-shadow:0px 2px 14px 1px rgba(0, 0, 0, 0.06);
+    border-radius:6px;
+    margin-bottom:20px;
+    cursor: pointer;
+    border: 1px solid white;
+}
+.active{
+    border: 1px solid #1565D8;
+    box-shadow: 0px 4px 14px 1px #0000000A;
+    background-color: #F5F9FF;
+    /* padding:18px 15px; */
+}
+
+.iconContainer{
+    position: relative;
+    margin-right: 15px;
+}
+.userIcon{
+    position: absolute;
+    top:12px;
+    right: 16px;
+}
+.content h6{
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 0;
+}
+.content p{
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 0;
+}
+
+.arrow{
+    margin-left: 13px;
+}
+
+.checkboxContainer{
+    display: flex;
+    align-items: center;
+}
+.checkboxContainer > input{
+    margin-right: 10px;
+}
+
+.button{
+    padding:14px ;
+    width: 100%;
+    margin-top: 25px;
+}
+.or{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+}
+.googleButtonContainer{
+    width: 100%;
+    padding:14px;
+    background: #FFFFFF;
+box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.08);
+border-radius: 6px;
+text-align: center;
+color:black;
+cursor: pointer;
+}
+
+.googleImage{
+    float: left;
+}

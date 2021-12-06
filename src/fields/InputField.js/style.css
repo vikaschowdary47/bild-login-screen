@@ -1,0 +1,35 @@
+.inputFieldContainer{
+    margin-bottom: 20px;
+}
+
+.inputFieldContainer > input,.select,.inputField{
+    border-radius: 6px;
+    padding:20px;
+    border: 1px solid #8692A6;
+    width: 100%;
+    background-color: white;
+}
+
+.inputFieldContainer > input:focus-visible,.select:focus-visible,.inputField:focus-visible {
+    outline:none;
+    border: 1px solid #1565D8;
+    box-shadow: 0px 4px 10px 3px rgba(0, 0, 0, 0.11);
+}
+
+.inputFieldContainer > label{
+    font-size:16px;
+    color:#696F79;
+    font-weight: 500;
+    margin-bottom:15px
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}

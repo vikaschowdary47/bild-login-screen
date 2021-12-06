@@ -1,0 +1,66 @@
+.signInWrapper{
+    padding:60px
+}
+.topLink{
+    display: table;
+    margin-left: auto;
+}
+.topLink a{
+    color:#3278DD !important
+}
+
+.contentWrapper{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column
+}
+
+.content h1{
+    color:#000000;
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.content p{
+    color: #8692A6;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.stepHeaderContainer{
+    display:flex;
+    /* align-items: center; */
+    justify-content: space-between;
+}
+
+.arrowContainer{
+    cursor: pointer;
+}
+.arrowContainer > img{
+    margin-top:-2.2px;
+    margin-right: 10px;
+    /* display:flex; */
+    /* align-items: center; */
+}
+
+.securityInfo{
+    margin-top:20px;
+    color:#8692A6;
+    font-size:12px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.securityInfo > img{
+    margin-right: 10px;
+}
